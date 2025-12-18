@@ -1,4 +1,4 @@
-# Project Limpyo: Otoscopic Image Analysis for Cerumen Impaction and Infection Risk Assessment
+# Project Limpyo: Otoscopic Image Analysis for Cerumen Impaction and Infection Risk Assessment [in progress]
 
 
 ## 1. Project Goal 
