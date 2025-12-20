@@ -47,6 +47,31 @@ Project Limpyo addresses this safety gap by developing an AI driven classificati
 - **Mobile-Ready Optimized Models:** Recent work using Bayesian hyperparameter optimization on CNN architectures achieved 98.10% accuracy, specifically focusing on rapid screening for earwax plugs and chronic infections [10].
 
 
+## Methodology
+### Dataset
+- **Source:** Otoscopic Image Dateset [Kaggle: https://www.kaggle.com/datasets/ucimachinelearning/otoscopic-image-dataset]
+
+     
+- **Split:** <br>
+&emsp; * 70% - Training Data <br>
+&emsp; * 15% - Validation Data  <br>
+&emsp; * 15% - Test Data <br>
+
+
+- **Classes:** 5 original classes mapped to 3 risk categories
+      &emsp; Normal → Low Risk <br>
+      &emsp; Myringosclerosis → Medium Risk <br>
+      &emsp; Cerumen Impaction → High Risk <br>
+      &emsp; Acute Otitis Media → High Risk <br>
+      &emsp; Chronic Otitis Media → High Risk <br>
+
+      
+- **Preprocessing:** <br>
+      &emsp; Resizing to 128×128 <br>
+      &emsp; Normalization (mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5]) <br>
+      &emsp; Data Augmentation: RandomHorizontalFlip for training <br>
+
+
 ### References
 
 [1] DergiPark. (2025). *Ear Pathologies Using Deep Learning on Otoscopic Images.* https://dergipark.org.tr/en/pub/atauniamd/issue/78728/1253457 <br>
