@@ -29,8 +29,8 @@ The recent market entry of affordable "smart" ear cleaners—digital otoscopes t
 Project Limpyo addresses this safety gap by developing an AI-driven classification system that acts as an intelligent "safety buffer." By utilizing deep learning and computer vision, specifically the ResNet50 and EfficientNetB0 architectures, the system analyzes otoscopic images in real-time to categorize them into Low, Medium, or High Risk. This provides an automated "red flag" mechanism that warns users to seek professional medical intervention when abnormalities are detected, potentially reducing the incidence of avoidable ear trauma in Philippine households.
 
 ## References
-[1] Newall, J. P., Martinez, N., Swanepoel, D. W., & McMahon, C. M. (2020). A National Survey of Hearing Loss in the Philippines. Asia-Pacific Journal of Public Health, 32(5), 235–241. https://doi.org/10.1177/1010539520937086
-[2] Santos-Cortez, R. L. P., et al. (2016). Genetic and Environmental Determinants of Otitis Media in an Indigenous Filipino Population. Otolaryngology–Head and Neck Surgery, 155(5), 856–862. https://doi.org/10.1177/0194599816661703
-[3] Sacayan-Quitay, N. D., et al. (2022). Hearing and Clinical Otologic Profile of Filipinos Living in Southern Tagalog Region IV-A (CALABARZON). Philippine Journal of Otolaryngology Head and Neck Surgery.
-[4] Llamado, C. A. C., et al. (2022). Knowledge, Attitudes, and Practices on Ear Hygiene and Hearing Health among Adults in a Selected Community in Manila. Philippine Journal of Otolaryngology Head and Neck Surgery.
+[1] Newall, J. P., Martinez, N., Swanepoel, D. W., & McMahon, C. M. (2020). A National Survey of Hearing Loss in the Philippines. Asia-Pacific Journal of Public Health, 32(5), 235–241. https://doi.org/10.1177/1010539520937086 <br>
+[2] Santos-Cortez, R. L. P., et al. (2016). Genetic and Environmental Determinants of Otitis Media in an Indigenous Filipino Population. Otolaryngology–Head and Neck Surgery, 155(5), 856–862. https://doi.org/10.1177/0194599816661703 <br>
+[3] Sacayan-Quitay, N. D., et al. (2022). Hearing and Clinical Otologic Profile of Filipinos Living in Southern Tagalog Region IV-A (CALABARZON). Philippine Journal of Otolaryngology Head and Neck Surgery. <br>
+[4] Llamado, C. A. C., et al. (2022). Knowledge, Attitudes, and Practices on Ear Hygiene and Hearing Health among Adults in a Selected Community in Manila. Philippine Journal of Otolaryngology Head and Neck Surgery. <br>
 
