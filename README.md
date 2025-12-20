@@ -92,24 +92,89 @@ Project Limpyo addresses this safety gap by developing an AI driven classificati
 | Learning Rate Scheduler | StepLR (step=5, gamma=0.5) |
 
 
+## Experiments & Results
+### Model Performance Summary
+
+| Metric | Training | Validation | Testing |
+|--------|----------|------------|---------|
+| **Accuracy** | 98.58% | 99.78% | 99.73% |
+| **Best Performance** | - | 99.78% | - |
+| **Samples** | 1,765 | 377 | 754 |
+
+
+### Detailed Performance Analysis
+
+#### Overall Performance
+- **Test Accuracy**: 99.73% (752/754 correct predictions)
+- **Macro Average F1-Score**: 0.996
+- **Weighted Average F1-Score**: 0.997
+- **Overall Precision**: 0.997
+- **Overall Recall**: 0.997
+
+#### Per-Class Performance Breakdown
+
+| Risk Category | Precision | Recall | F1-Score | Support | Accuracy |
+|---------------|-----------|--------|----------|---------|----------|
+| **Low Risk** | 1.000 | 0.986 | 0.993 | 147 | 98.6% |
+| **Medium Risk** | 0.987 | 1.000 | 0.994 | 156 | 100% |
+| **High Risk** | 1.000 | 1.000 | 1.000 | 451 | 100% |
+
+### Confusion Matrix
+
+**True Label → / Predicted Label ↓**
+
+| | Low Risk | Medium Risk | High Risk |
+|-----------|----------|-------------|-----------|
+| **Low Risk** | 145 | 2 | 0 |
+| **Medium Risk** | 0 | 156 | 0 |
+| **High Risk** | 0 | 0 | 451 |
+
+
+### Performance by Risk Category
+
+#### Low Risk (Safe to Clean)
+- **Accuracy**: 98.6% (145/147 correct)
+- **Clinical Impact**: High accuracy ensures safe recommendations
+- **Safety Margin**: Only 2 false positives (Medium Risk)
+- **No Dangerous Errors**: Never misclassified as High Risk
+
+#### Medium Risk (Caution Advised)
+- **Accuracy**: 100% (156/156 correct)
+- **Clinical Impact**: Perfect identification for monitoring cases
+- **Safety**: All cases correctly identified for caution
+
+#### High Risk (Refer to Doctor)
+- **Accuracy**: 100% (451/451 correct)
+- **Clinical Impact**: Perfect detection prevents dangerous self-cleaning
+- **Safety Critical**: Zero false negatives - no high-risk cases missed
+
+### Demo
+- In Progress
+
+
+
+
+
+
+
 ## Installation
 1. Clone repo: `git clone [https://github.com/Veynnn/CSC173-DeepCV-Sistona]`
 2. Install deps: `pip install -r requirements.txt`
 
 **requirements.txt:**
-torch>=2.0.0
-torchvision>=0.15.0
-opencv-python>=4.7.0
-Pillow>=9.5.0
-albumentations>=1.3.0
-numpy>=1.24.0
-pandas>=2.0.0
-scikit-learn>=1.2.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
-tqdm>=4.65.0
-ipywidgets>=8.0.0
-jupyter>=1.0.0
+torch>=2.0.0 <br>
+torchvision>=0.15.0 <br>
+opencv-python>=4.7.0 <br>
+Pillow>=9.5.0 <br>
+albumentations>=1.3.0 <br>
+numpy>=1.24.0 <br>
+pandas>=2.0.0 <br>
+scikit-learn>=1.2.0 <br>
+matplotlib>=3.7.0 <br>
+seaborn>=0.12.0 <br>
+tqdm>=4.65.0 <br>
+ipywidgets>=8.0.0 <br>
+jupyter>=1.0.0 <br>
 
 
 ### References
