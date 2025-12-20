@@ -1,7 +1,7 @@
 # Project Limpyo: Otoscopic Image Analysis for Cerumen Impaction and Infection Risk Assessment [in progress]
 **CSC173 Intelligent Systems Final Project**  
 *Mindanao State University - Iligan Institute of Technology*  
-**Student:** Lavigne Kaye s. Sistona, 2022-5619
+**Student:** Lavigne Kaye s. Sistona, 2022-5619 <br>
 **Semester:** [e.g., AY 2025-2026 Sem 1]  
 
 ## Abstract
@@ -27,6 +27,12 @@ Ear health is a critical yet frequently overlooked component of personal hygiene
 The recent market entry of affordable "smart" ear cleaners—digital otoscopes that stream live video to a user's smartphone—aims to provide visual guidance for these habits. However, while these devices provide the user with "eyes" inside the canal, they do not provide the clinical "insight" necessary to interpret what is being seen. A layperson may easily mistake an inflamed, infected ear canal or a fungal growth for simple earwax, leading to aggressive cleaning attempts that can rupture the tympanic membrane or push infections deeper into the middle ear (Llamado et al., 2022).
 
 Project Limpyo addresses this safety gap by developing an AI-driven classification system that acts as an intelligent "safety buffer." By utilizing deep learning and computer vision, specifically the ResNet50 and EfficientNetB0 architectures, the system analyzes otoscopic images in real-time to categorize them into Low, Medium, or High Risk. This provides an automated "red flag" mechanism that warns users to seek professional medical intervention when abnormalities are detected, potentially reducing the incidence of avoidable ear trauma in Philippine households.
+
+### Objectives
+- Objective 1: To develop a deep learning model using ResNet50 architectures that achieves high classification accuracy (>90%) in identifying ear canal abnormalities. <br>
+- Objective 2: To integrate decision logic framework that categorizes otoscopic findings into Low, Medium, and High Risk levels for user guidance. <br>
+- Objective 3: To deploy the system as a mobile-compatible tool that provides real-time "red flag" alerts to prevent improper self-ear cleaning and encourage medical consultation.
+
 
 ## References
 [1] Newall, J. P., Martinez, N., Swanepoel, D. W., & McMahon, C. M. (2020). A National Survey of Hearing Loss in the Philippines. Asia-Pacific Journal of Public Health, 32(5), 235–241. https://doi.org/10.1177/1010539520937086 <br>
