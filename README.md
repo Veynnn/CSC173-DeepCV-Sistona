@@ -58,7 +58,7 @@ Project Limpyo addresses this safety gap by developing an AI driven classificati
 &emsp; * 15% - Test Data <br>
 
 
-- **Classes:** 5 original classes mapped to 3 risk categories
+- **Classes:** 5 original classes mapped to 3 risk categories <br>
       &emsp; Normal → Low Risk <br>
       &emsp; Myringosclerosis → Medium Risk <br>
       &emsp; Cerumen Impaction → High Risk <br>
@@ -67,9 +67,49 @@ Project Limpyo addresses this safety gap by developing an AI driven classificati
 
       
 - **Preprocessing:** <br>
-      &emsp; Resizing to 128×128 <br>
+      &emsp; Resizing to 200×200 <br>
       &emsp; Normalization (mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5]) <br>
       &emsp; Data Augmentation: RandomHorizontalFlip for training <br>
+
+
+### Architecture
+- **Backbone**: Custom SimpleCNN with 3 convolutional layers
+- **Head**: Two fully connected layers with dropout regularization
+- **Total Parameters**: 500,355 trainable parameters
+- **Input Size**: 200×200×3 RGB images
+- **Output**: 3 classes (Low/Medium/High Risk)
+
+
+#### Hyperparameters
+| Parameter | Value |
+|-----------|-------|
+| Batch Size | 32 |
+| Learning Rate | 0.001 |
+| Epochs | 15 |
+| Optimizer | Adam |
+| Loss Function | CrossEntropyLoss |
+| Dropout Rate | 0.3 |
+| Learning Rate Scheduler | StepLR (step=5, gamma=0.5) |
+
+
+## Installation
+1. Clone repo: `git clone [https://github.com/Veynnn/CSC173-DeepCV-Sistona]`
+2. Install deps: `pip install -r requirements.txt`
+
+**requirements.txt:**
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.7.0
+Pillow>=9.5.0
+albumentations>=1.3.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.65.0
+ipywidgets>=8.0.0
+jupyter>=1.0.0
 
 
 ### References
