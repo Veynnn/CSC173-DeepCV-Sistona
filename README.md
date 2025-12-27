@@ -49,7 +49,7 @@ Project Limpyo addresses this safety gap by developing an AI driven classificati
 
 ## Methodology
 ### Dataset
-- **Source:** Kaggle: [Otoscopic Image Dateset](https://www.kaggle.com/datasets/ucimachinelearning/otoscopic-image-dataset)]
+- **Source:** Kaggle: [Otoscopic Image Dateset](https://www.kaggle.com/datasets/ucimachinelearning/otoscopic-image-dataset)
 
      
 - **Split:** <br>
@@ -241,3 +241,6 @@ jupyter>=1.0.0 <br>
 [13] Sacayan-Quitay, N. D., et al. (2022). Hearing and Clinical Otologic Profile of Filipinos Living in Southern Tagalog Region IV-A (CALABARZON). Philippine Journal of Otolaryngology Head and Neck Surgery. <br>
 [14] Llamado, C. A. C., et al. (2022). Knowledge, Attitudes, and Practices on Ear Hygiene and Hearing Health among Adults in a Selected Community in Manila. Philippine Journal of Otolaryngology Head and Neck Surgery. <br>
 
+
+## GitHub Pages
+View this project site: [https://veynnn.github.io/CSC173-DeepCV-Sistona/](https://veynnn.github.io/CSC173-DeepCV-Sistona/)
