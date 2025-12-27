@@ -49,7 +49,7 @@ Project Limpyo addresses this safety gap by developing an AI driven classificati
 
 ## Methodology
 ### Dataset
-- **Source:** Otoscopic Image Dateset [Kaggle: https://www.kaggle.com/datasets/ucimachinelearning/otoscopic-image-dataset]
+- **Source:** Kaggle: [Otoscopic Image Dateset](https://www.kaggle.com/datasets/ucimachinelearning/otoscopic-image-dataset)]
 
      
 - **Split:** <br>
@@ -142,8 +142,8 @@ Project Limpyo addresses this safety gap by developing an AI driven classificati
 - **Safety Critical**: Zero false negatives - no high-risk cases missed
 
 ### Demo
-[Video: [Final Presentation](demo/CSC173_Sistona_Final.mp4)] 
-Link: https://drive.google.com/file/d/14ShU7OBjMcJ5lcvVBB6bRYiiP3F3vo7_/view?usp=sharing
+[Video: [Final Presentation](demo/CSC173_Sistona_Final.mp4)] <br>
+Link:  [https://drive.google.com/file/d/14ShU7OBjMcJ5lcvVBB6bRYiiP3F3vo7_/view?usp=sharing](https://drive.google.com/file/d/14ShU7OBjMcJ5lcvVBB6bRYiiP3F3vo7_/view?usp=sharing)
 
 ## Discussion
 ### Visualization
