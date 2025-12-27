@@ -1,4 +1,4 @@
-# Project Limpyo: Otoscopic Image Analysis for Cerumen Impaction and Infection Risk Assessment [in progress]
+# Project Limpyo: Otoscopic Image Analysis for Cerumen Impaction and Infection Risk Assessment [no video]
 **CSC173 Intelligent Systems Final Project**  
 *Mindanao State University - Iligan Institute of Technology*  
 **Student:** Lavigne Kaye s. Sistona, 2022-5619 <br>
