@@ -142,8 +142,7 @@ Project Limpyo addresses this safety gap by developing an AI driven classificati
 - **Safety Critical**: Zero false negatives - no high-risk cases missed
 
 ### Demo
-[Video: [Final Presentation](demo/CSC173_Sistona_Final.mp4)] <br>
-Link:  [https://drive.google.com/file/d/14ShU7OBjMcJ5lcvVBB6bRYiiP3F3vo7_/view?usp=sharing](https://drive.google.com/file/d/14ShU7OBjMcJ5lcvVBB6bRYiiP3F3vo7_/view?usp=sharing)
+Link:  [Final Presentation](https://drive.google.com/file/d/14ShU7OBjMcJ5lcvVBB6bRYiiP3F3vo7_/view?usp=sharing)
 
 ## Discussion
 ### Visualization
