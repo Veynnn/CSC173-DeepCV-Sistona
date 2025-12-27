@@ -120,14 +120,7 @@ Project Limpyo addresses this safety gap by developing an AI driven classificati
 | **High Risk** | 1.000 | 1.000 | 1.000 | 451 | 100% |
 
 ### Confusion Matrix
-
-**True Label → / Predicted Label ↓**
-
-| | Low Risk | Medium Risk | High Risk |
-|-----------|----------|-------------|-----------|
-| **Low Risk** | 145 | 2 | 0 |
-| **Medium Risk** | 0 | 156 | 0 |
-| **High Risk** | 0 | 0 | 451 |
+![Confusion Matrix](results/confusion_matrix.png)
 
 
 ### Performance by Risk Category
@@ -152,6 +145,9 @@ Project Limpyo addresses this safety gap by developing an AI driven classificati
 - In Progress
 
 ## Discussion
+### Visualization
+![Summary Results](results/summary.png)
+
 ### Strength
 - **Exceptional Accuracy**: Achieved 99.73% test accuracy with perfect 100% detection of high-risk cases, making it clinically reliable for safety-critical applications.
 
